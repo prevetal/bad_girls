@@ -1,0 +1,41 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 22" id="ic_arr_hor">
+    <path d="M10.125 20.375L0.75 11L10.125 1.625" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 11" id="ic_arr_ver">
+    <path d="M5 8.5C4.67695 8.5 4.3539 8.37438 4.10931 8.1278L1.10038 5.09436C0.966542 4.95944 0.966542 4.73612 1.10038 4.60119C1.23421 4.46627 1.45573 4.46627 1.58956 4.60119L4.5985 7.63463C4.82001 7.85795 5.17998 7.85795 5.4015 7.63463L8.41044 4.60119C8.54427 4.46627 8.76579 4.46627 8.89963 4.60119C9.03346 4.73612 9.03346 4.95944 8.89963 5.09436L5.89068 8.1278C5.64609 8.37438 5.32304 8.5 5 8.5Z" fill="currentColor"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_arrow_hor">
+    <path d="M5 11.5C4.72386 11.5 4.5 11.7239 4.5 12C4.5 12.2761 4.72386 12.5 5 12.5V12V11.5ZM19.3536 12.3536C19.5488 12.1583 19.5488 11.8417 19.3536 11.6464L16.1716 8.46447C15.9763 8.2692 15.6597 8.2692 15.4645 8.46447C15.2692 8.65973 15.2692 8.97631 15.4645 9.17157L18.2929 12L15.4645 14.8284C15.2692 15.0237 15.2692 15.3403 15.4645 15.5355C15.6597 15.7308 15.9763 15.7308 16.1716 15.5355L19.3536 12.3536ZM5 12V12.5H19V12V11.5H5V12Z" fill="currentColor"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_arrow_link">
+    <path d="M18.5389 15.1029C18.4046 15.2372 18.2207 15.3221 18.0086 15.3221C17.5985 15.3221 17.259 14.9827 17.259 14.5725L17.259 6.7378L9.42431 6.73781C9.01419 6.73781 8.67478 6.3984 8.67478 5.98828C8.67478 5.57816 9.01419 5.23875 9.42431 5.23875L18.0086 5.23873C18.4187 5.23873 18.7581 5.57815 18.7581 5.98827L18.7581 14.5725C18.7581 14.7847 18.6733 14.9685 18.5389 15.1029Z" fill="currentColor"></path>
+    <path d="M18.4213 6.64144L6.52068 18.542C6.23076 18.832 5.74993 18.832 5.46002 18.542C5.1701 18.2521 5.1701 17.7713 5.46002 17.4814L17.3606 5.58078C17.6505 5.29087 18.1314 5.29087 18.4213 5.58078C18.7112 5.8707 18.7112 6.35153 18.4213 6.64144Z" fill="currentColor"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="ic_arrow_slider">
+    <path d="M16.3635 8.33337C16.6802 8.33337 16.9969 8.45004 17.2469 8.70004C17.7302 9.18337 17.7302 9.98337 17.2469 10.4667L8.01354 19.7L17.2469 28.9333C17.7302 29.4167 17.7302 30.2167 17.2469 30.7C16.7635 31.1833 15.9635 31.1833 15.4802 30.7L5.36354 20.5834C4.88021 20.1 4.88021 19.3 5.36354 18.8167L15.4802 8.70003C15.7302 8.45003 16.0469 8.33337 16.3635 8.33337Z" fill="currentColor"></path>
+    <path d="M6.52813 18.4531L34.5781 18.4531C35.2615 18.4531 35.8281 19.0198 35.8281 19.7031C35.8281 20.3865 35.2615 20.9531 34.5781 20.9531L6.52813 20.9531C5.84479 20.9531 5.27813 20.3865 5.27813 19.7031C5.27813 19.0198 5.84479 18.4531 6.52813 18.4531Z" fill="currentColor"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="ic_close">
+    <path d="M22.1514 9.84375L9.84375 22.1514" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22.1514 22.1514L9.84375 9.84375" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="ic_home">
+    <path d="M12.6667 6.66667V12.6667C12.6667 13.403 12.0697 14 11.3333 14H4.66667C3.93029 14 3.33333 13.403 3.33333 12.6667V6.66667M14 8L8 2L2 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="ic_menu">
+    <rect x="7" y="17" width="30" height="1.7" rx="0.85" fill="currentColor"></rect>
+    <rect x="7" y="26" width="30" height="1.7" rx="0.85" fill="currentColor"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" id="ic_menu_close">
+    <rect x="9.4375" y="14" width="30" height="1.7" rx="0.85" transform="rotate(30 9.4375 14)" fill="currentColor"></rect>
+    <rect x="8.58594" y="29" width="30" height="1.7" rx="0.85" transform="rotate(-30 8.58594 29)" fill="currentColor"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="ic_rouble">
+    <path d="M6.39844 16H13.5984" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M8.88733 19.2008V4.80078H13.554C14.6266 4.80078 15.6554 5.24903 16.4138 6.04691C17.1723 6.84479 17.5984 7.92695 17.5984 9.05533C17.5984 10.1837 17.1723 11.2659 16.4138 12.0637C15.6554 12.8616 14.6266 13.3099 13.554 13.3099H6.39844" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 22" id="ic_video_play">
+    <path d="M18 11C18.0007 11.2873 17.9294 11.5699 17.7932 11.8202C17.657 12.0706 17.4605 12.2803 17.2227 12.4289L2.48727 21.7509C2.23884 21.9082 1.9543 21.9941 1.66303 21.9997C1.37177 22.0053 1.08435 21.9304 0.830455 21.7827C0.578976 21.6372 0.369487 21.4252 0.223531 21.1683C0.0775753 20.9114 0.000420195 20.6189 0 20.321V1.67901C0.000420195 1.38105 0.0775753 1.08859 0.223531 0.831698C0.369487 0.574805 0.578976 0.362752 0.830455 0.217344C1.08435 0.0696432 1.37177 -0.00528771 1.66303 0.00029016C1.9543 0.00586803 2.23884 0.0917526 2.48727 0.249074L17.2227 9.57113C17.4605 9.7197 17.657 9.92937 17.7932 10.1798C17.9294 10.4301 18.0007 10.7127 18 11Z" fill="currentColor"></path>
+  </symbol>
+</svg>
