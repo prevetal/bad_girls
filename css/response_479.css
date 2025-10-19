@@ -3,4 +3,270 @@
     /*-------------------
         Global styles
     -------------------*/
+    :root
+    {
+        --cont_padding: 16px;
+        --block_head_offset: 24px;
+        --block_head_offset_s: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .city .mini_modal
+    {
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        width: 210px;
+        max-height: 375px;
+
+        overscroll-behavior-y: contain;
+    }
+
+
+    header .city .mini_modal .col
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .swiper-controls
+    {
+        margin-left: auto;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-block: 80px 332px;
+    }
+
+
+    .first_section .order_btn
+    {
+        width: 180px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .data
+    {
+        padding-left: 80px;
+    }
+
+
+    .stats .data .val
+    {
+        width: 100%;
+
+        font-size: 50px;
+    }
+
+
+    .stats .data .icon
+    {
+        display: none;
+    }
+
+
+    .stats .data .desc
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .order_btn
+    {
+        width: 180px;
+    }
+
+
+
+    /*------------
+        Models
+    ------------*/
+    .models .swiper .block_head .title.small_w
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: var(--inner_gap_s);
+    }
+
+
+    .models .model .thumb
+    {
+        width: 242px;
+        max-width: 100%;
+    }
+
+
+    .models .model .info
+    {
+        position: relative;
+
+        width: 100%;
+
+        gap: var(--inner_gap_m);
+    }
+
+
+    .models .model .link
+    {
+        position: absolute;
+        right: var(--inner_gap_md);
+        bottom: var(--inner_gap_s);
+
+        z-index: 2;
+    }
+
+
+
+    /*----------------
+        Model info
+    ----------------*/
+    .model_info .images .swiper-controls
+    {
+        gap: var(--inner_gap_s);
+    }
+
+
+    .model_info .images .swiper-button-next,
+    .model_info .images .swiper-button-prev
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    .model_info .images .swiper-button-next .icon,
+    .model_info .images .swiper-button-prev .icon
+    {
+        width: 8px;
+        height: 16px;
+    }
+
+
+
+    .model_info .features .desc .val
+    {
+        width: 100%;
+        margin-top: var(--inner_gap_s);
+    }
+
+
+
+    /*-------------------
+        Services grid
+    -------------------*/
+    .services_grid .block_head .title
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: var(--inner_gap_s);
+    }
+
+
+    .services_grid .service .thumb
+    {
+        width: 242px;
+    }
+
+
+    .services_grid .service .info
+    {
+        width: 100%;
+        margin-top: var(--inner_gap_m);
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .order_btn
+    {
+        width: 180px;
+    }
+
+
+
+    /*-------------------
+        Casting block
+    -------------------*/
+    .casting_block .image
+    {
+        right: -68px;
+
+        width: 320px;
+    }
+
+
+
+    /*----------------
+        VIP escort
+    ----------------*/
+    .vip_escort .desc > *
+    {
+        width: 100%;
+    }
+
+
+    .vip_escort .order_btn
+    {
+        width: 180px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        width: 100%;
+
+        gap: 44px;
+    }
+
+
+    footer .menu > *
+    {
+        width: 128px;
+    }
+
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+
+    /*-------------------
+        PopUp - Order
+    -------------------*/
+    #order_modal .links a
+    {
+        width: 100%;
+    }
 }

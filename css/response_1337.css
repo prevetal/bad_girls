@@ -1,0 +1,23 @@
+@media print,
+(max-width: 1337px)
+{
+    /*--------------------
+        Elite services
+    --------------------*/
+    .elite_services .block_head span
+    {
+        display: inline;
+    }
+
+
+
+    /*------------------
+        Cookie modal
+    ------------------*/
+    .cookie_modal
+    {
+        left: var(--cont_padding);
+
+        margin-left: 0;
+    }
+}

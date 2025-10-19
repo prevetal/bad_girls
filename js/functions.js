@@ -7,15 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	// Set scrollbar width
 	document.documentElement.style.setProperty('--scroll_width', widthScroll() + 'px')
-
-
-	// Mob. version
-	fakeResize = false
-	fakeResize2 = true
-
-	if (document.body.clientWidth < 375) {
-		document.getElementsByTagName('meta')['viewport'].content = 'width=375, user-scalable=no'
-	}
 })
 
 

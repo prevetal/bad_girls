@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded', function() {
 				},
 				768: {
 					spaceBetween: 24,
-					slidesPerView: 1
+					slidesPerView: 2
 				},
-				1024: {
+				1280: {
 					spaceBetween: 30,
 					slidesPerView: 2
 				}
@@ -81,6 +81,10 @@ document.addEventListener('DOMContentLoaded', function() {
 					slidesPerView: 1
 				},
 				1024: {
+					spaceBetween: 24,
+					slidesPerView: 2
+				},
+				1280: {
 					spaceBetween: 30,
 					slidesPerView: 2
 				}
@@ -265,16 +269,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 	// Mob. menu
-	$('.mob_header .mob_menu_btn').click((e) => {
+	$('header .mob_menu_btn').click((e) => {
 		e.preventDefault()
 
-		$('.mob_header .mob_menu_btn').toggleClass('active')
+		$('header .mob_menu_btn').toggleClass('active')
 		$('body').toggleClass('lock')
-		$('header').toggleClass('show')
+		$('.mob_menu').toggleClass('show')
+	})
 
-		$('.mob_header .mob_menu_btn').hasClass('active')
-			? $('.overlay').fadeIn(300)
-			: $('.overlay').fadeOut(300)
+
+	$('.mob_menu .menu a.sub_link').click(function (e) {
+		e.preventDefault()
+
+		const subMenu = $(this).data('sub-menu')
+
+		$('.mob_menu .frame.sub_menu' + subMenu).addClass('show')
+	})
+
+
+	$('.mob_menu .back .btn').click(function (e) {
+		e.preventDefault()
+
+		const frame = $(this).closest('.frame')
+
+		frame.removeClass('show')
 	})
 
 
@@ -328,6 +346,22 @@ document.addEventListener('DOMContentLoaded', function() {
 			type: 'inline'
 		}])
 	}
+
+
+	// Cookie
+	$('.cookie_modal .close_btn').click(function(e) {
+		e.preventDefault()
+
+		$('.cookie_modal').hide()
+	})
+
+
+	// Categories
+	$('.models .categories .spoler_btn').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active').closest('.row').toggleClass('show_all')
+	})
 })
 
 
@@ -340,23 +374,5 @@ window.addEventListener('resize', function () {
 	if (typeof WW !== 'undefined' && WW != windowW) {
 		// Overwrite window width
 		WW = window.innerWidth || document.clientWidth || BODY.clientWidth
-
-
-		// Mob. version
-		if (!fakeResize) {
-			fakeResize = true
-			fakeResize2 = false
-
-			document.getElementsByTagName('meta')['viewport'].content = 'width=device-width, initial-scale=1, maximum-scale=1'
-		}
-
-		if (!fakeResize2) {
-			fakeResize2 = true
-
-			if (windowW < 375) document.getElementsByTagName('meta')['viewport'].content = 'width=375, user-scalable=no'
-		} else {
-			fakeResize = false
-			fakeResize2 = true
-		}
 	}
 })

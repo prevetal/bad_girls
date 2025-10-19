@@ -6,7 +6,1231 @@
     -------------------*/
     :root
     {
+        --content_width: 100%;
+        --cont_padding: 24px;
         --custom_scroll_width: 5px;
         --custom_scroll_height: 5px;
+        --font_size_b: 18px;
+        --font_size_m: 16px;
+        --font_size: 15px;
+        --font_size_s: 13px;
+        --font_size_xs: 11px;
+        --font_size_title: 30px;
+        --font_size_title_m: 26px;
+        --font_size_title_s: 20px;
+        --block_head_offset: 40px;
+        --block_head_offset_s: 24px;
+        --outside_gap_b: 120px;
+        --outside_gap: 88px;
+        --outside_gap_s: 60px;
+        --inner_gap_b: 28px;
+        --inner_gap_md: 24px;
+        --inner_gap: 20px;
+        --inner_gap_m: 16px;
+        --inner_gap_s: 12px;
+        --inner_gap_xs: 8px;
+    }
+
+
+
+    .block.bg_block
+    {
+        padding-block: var(--outside_gap_b);
+    }
+
+
+
+    .swiper-controls
+    {
+        gap: var(--inner_gap_m);
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*--------------
+        More btn
+    --------------*/
+    .more_btn
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .more_btn .btn
+    {
+        width: 220px;
+        height: 48px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .all_link a
+    {
+        width: 220px;
+        height: 48px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding-block: var(--inner_gap_md);
+    }
+
+
+
+    header .menu
+    {
+        gap: var(--inner_gap_md);
+    }
+
+
+    header .sub_menu
+    {
+        width: 248px;
+    }
+
+
+    header .sub_menu.two_cols
+    {
+        width: 496px;
+    }
+
+
+    header .sub_menu a
+    {
+        padding-block: var(--inner_gap_s);
+        padding-inline: var(--inner_gap_m);
+    }
+
+
+
+    header .city .current_btn
+    {
+        padding-block: var(--inner_gap_xs);
+    }
+
+
+    header .city .mini_modal
+    {
+        width: 374px;
+    }
+
+
+    header .city .mini_modal a
+    {
+        padding-block: var(--inner_gap_s);
+        padding-inline: var(--inner_gap_m);
+    }
+
+
+
+    header .langs
+    {
+        margin-left: var(--cont_padding_double);
+    }
+
+
+
+    header .order_btn
+    {
+        height: 40px;
+        padding-inline: calc(var(--inner_gap_md) - 1px);
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: var(--inner_gap_s);
+    }
+
+
+    .page_head .cont
+    {
+        gap: var(--cont_padding_double);
+    }
+
+
+    .breadcrumbs
+    {
+        gap: var(--inner_gap_xs);
+    }
+
+
+    .page_head .row .page_desc
+    {
+        width: calc(100% - 340px);
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        gap: var(--inner_gap_md);
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        gap: var(--inner_gap_md);
+    }
+
+
+    .first_section .title
+    {
+        width: 188px;
+    }
+
+
+    .first_section .name
+    {
+        font-size: 148px;
+        line-height: 70%;
+    }
+
+
+    .first_section .bottom
+    {
+        margin-top: var(--cont_padding_double);
+    }
+
+
+    .first_section .bottom span
+    {
+        width: 224px;
+    }
+
+
+    .first_section .order_btn
+    {
+        width: 220px;
+        height: 48px;
+    }
+
+
+    .first_section .image
+    {
+        right: calc(var(--cont_padding_double) * -1);
+
+        width: 580px;
+        margin-right: 0;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .title
+    {
+        width: 240px;
+        padding-top: var(--inner_gap_md);
+    }
+
+
+    .stats .data
+    {
+        width: calc(100% - 340px);
+
+        gap: var(--inner_gap_md);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .title
+    {
+        width: 240px;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 320px;
+        margin-left: 100px;
+    }
+
+
+    .contacts_info .item
+    {
+        padding-bottom: var(--inner_gap);
+    }
+
+
+    .contacts_info .item + .item
+    {
+        padding-top: var(--inner_gap_s);
+    }
+
+
+    .contacts_info .item .label
+    {
+        width: 132px;
+    }
+
+
+    .contacts_info .item .val
+    {
+        width: calc(100% - 156px);
+    }
+
+
+    .contacts_info .order_btn
+    {
+        width: 220px;
+        height: 48px;
+        margin-top: var(--outside_gap_s);
+    }
+
+
+    .contacts_info .image
+    {
+        width: 248px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .block_head
+    {
+        width: calc(100% - 240px);
+        margin-left: 240px;
+    }
+
+
+    .services .block_head .title span
+    {
+        padding-left: 100px;
+    }
+
+
+    .services .service .name
+    {
+        width: calc(100% - 388px);
+    }
+
+
+    .services .service .thumb
+    {
+        left: 100px;
+
+        width: 160px;
+    }
+
+
+
+    /*------------
+        Models
+    ------------*/
+    .models.pad_top
+    {
+        padding-top: var(--cont_padding);
+    }
+
+
+    .models .swiper .block_head .pre_title
+    {
+        width: 240px;
+    }
+
+
+    .models .swiper .block_head .title.small_w
+    {
+        width: 588px;
+        margin-left: 0;
+    }
+
+
+    .models .swiper .block_head .title span
+    {
+        padding-left: 100px;
+    }
+
+
+    .models .categories .row
+    {
+        gap: var(--inner_gap_s);
+    }
+
+
+    .models .categories a
+    {
+        padding: calc(var(--cont_padding_half) - 1px);
+    }
+
+
+    .models .model .info
+    {
+        gap: var(--inner_gap_md);
+    }
+
+
+
+    /*-------------------
+        Peculiarities
+    -------------------*/
+    .peculiarities .head
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    .peculiarities .head .title
+    {
+        width: 240px;
+    }
+
+
+    .peculiarities .head .desc
+    {
+        width: 248px;
+    }
+
+
+
+    .peculiarities .info
+    {
+        margin-bottom: var(--outside_gap);
+    }
+
+
+
+    .peculiarities .info .image
+    {
+        width: 240px;
+        height: 240px;
+    }
+
+
+    .peculiarities .info .image img
+    {
+        left: var(--inner_gap_md);
+
+        width: 316px;
+    }
+
+
+    .peculiarities .info .desc
+    {
+        width: calc(100% - 340px);
+        margin-left: 80px;
+    }
+
+
+
+    .peculiarities .advantages
+    {
+        margin-top: var(--outside_gap);
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .data
+    {
+        width: calc(100% - 240px);
+        margin-left: 240px;
+    }
+
+
+    .advantages .block_head .title span
+    {
+        padding-left: 100px;
+    }
+
+
+    .advantages .items
+    {
+        width: calc(100% - 100px);
+        margin-left: 100px;
+    }
+
+
+    .advantages .image
+    {
+        width: 240px;
+        height: 240px;
+    }
+
+
+    .advantages .image img
+    {
+        left: var(--inner_gap_md);
+
+        width: 316px;
+    }
+
+
+    .advantages .text_block
+    {
+        width: 100%;
+        margin-top: var(--outside_gap_s);
+        margin-left: 100px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .block_head
+    {
+        padding-left: 340px;
+    }
+
+
+    .articles .article .image
+    {
+        width: calc(100% - 340px);
+    }
+
+
+    .articles .article .info
+    {
+        width: 316px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .data
+    {
+        width: calc(100% - 340px);
+    }
+
+
+    .article_info .text_block picture
+    {
+        width: calc(100% + 100px);
+        max-width: calc(100% + 100px);
+        margin-left: -100px;
+    }
+
+
+
+    /*----------------
+        Model info
+    ----------------*/
+    .model_info .images
+    {
+        width: 440px;
+    }
+
+
+    .model_info .images .swiper-button-next,
+    .model_info .images .swiper-button-prev
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    .model_info .data
+    {
+        width: calc(100% - 464px);
+
+        gap: var(--inner_gap_md);
+    }
+
+
+    .model_info .features .label
+    {
+        width: 132px;
+    }
+
+
+    .model_info .features .val
+    {
+        width: calc(100% - 152px);
+    }
+
+
+    .model_info .order_btn
+    {
+        width: 280px;
+        height: 48px;
+        margin-top: var(--cont_padding_double);
+    }
+
+
+
+    /*------------------
+        Service info
+    ------------------*/
+    .service_info .data
+    {
+        padding-bottom: var(--cont_padding_double);
+    }
+
+
+    .service_info .desc
+    {
+        width: calc(100% - 636px);
+    }
+
+
+    .service_info .image
+    {
+        width: 340px;
+    }
+
+
+    .service_info .info
+    {
+        width: 248px;
+    }
+
+
+    .service_info .order_btn
+    {
+        width: 220px;
+        height: 48px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .block_head
+    {
+        width: calc(100% - 240px);
+        margin-left: 240px;
+    }
+
+
+    .catalog .block_head .title span
+    {
+        padding-left: 100px;
+    }
+
+
+    .catalog .image
+    {
+        width: 240px;
+    }
+
+
+    .catalog .data
+    {
+        width: calc(100% - 340px);
+        margin-left: 100px;
+    }
+
+
+    .catalog .order_btn
+    {
+        width: 220px;
+        height: 48px;
+        margin-top: var(--cont_padding_double);
+    }
+
+
+
+    /*--------------------
+        Elite services
+    --------------------*/
+    .elite_services .block_head
+    {
+        width: calc(100% - 240px);
+        max-width: 100%;
+        margin-left: 240px;
+    }
+
+
+    .elite_services .block_head .title span
+    {
+        padding-left: 100px;
+    }
+
+
+    .elite_services .desc
+    {
+        width: calc(100% - 340px);
+    }
+
+
+    .elite_services .row
+    {
+        margin-top: var(--inner_gap_md);
+    }
+
+
+    .elite_services .image
+    {
+        width: 240px;
+    }
+
+
+    .elite_services .info
+    {
+        width: 240px;
+        margin-left: 100px;
+    }
+
+
+    .elite_services .order_btn
+    {
+        width: 220px;
+        height: 48px;
+        margin-top: var(--outside_gap_b);
+    }
+
+
+    .elite_services .image2
+    {
+        width: 248px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .data
+    {
+        min-height: 550px;
+        padding-block: var(--cont_padding);
+        padding-inline: var(--cont_padding);
+    }
+
+
+    .why_we .block_head
+    {
+        width: calc(100% - 240px);
+        margin-left: 240px;
+    }
+
+
+    .why_we .block_head span
+    {
+        padding-left: 100px;
+    }
+
+
+    .why_we .desc > *:nth-child(2)
+    {
+        width: 280px;
+        min-width: 280px;
+    }
+
+
+    .why_we .desc > *:nth-child(3)
+    {
+        width: 300px;
+        min-width: 300px;
+    }
+
+
+
+    /*-------------------
+        Services grid
+    -------------------*/
+    .services_grid .block_head .pre_title
+    {
+        width: 240px;
+    }
+
+
+    .services_grid .block_head .title
+    {
+        width: auto;
+        max-width: calc(100% - 362px);
+        margin-left: 0;
+    }
+
+
+    .services_grid .block_head .title span
+    {
+        padding-left: 100px;
+    }
+
+
+
+    /*------------------
+        Casting info
+    ------------------*/
+    .casting_info .data
+    {
+        min-height: 550px;
+        padding-block: var(--cont_padding_double);
+        padding-inline: var(--cont_padding_double);
+    }
+
+
+    .casting_info .block_head
+    {
+        width: calc(100% - 240px);
+        margin-left: 240px;
+    }
+
+
+    .casting_info .block_head span
+    {
+        padding-left: 100px;
+    }
+
+
+    .casting_info .desc
+    {
+        gap: var(--cont_padding_double);
+    }
+
+
+
+    .casting_info .desc > *:nth-child(1),
+    .casting_info .desc > *:nth-child(2)
+    {
+        width: calc(50% - var(--cont_padding));
+        min-width: 0;
+    }
+
+
+
+    /*----------------
+        Casing why
+    ----------------*/
+    .casing_why .block_head
+    {
+        width: calc(100% - 240px);
+        margin-left: 240px;
+        padding-bottom: 0;
+    }
+
+
+    .casing_why .block_head .title span
+    {
+        padding-left: 100px;
+    }
+
+
+    .casing_why .item
+    {
+        padding-block: var(--inner_gap_s) var(--inner_gap_b);
+        padding-left: 340px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .block_head
+    {
+        width: 240px;
+    }
+
+
+    .about_info .image,
+    .about_info .image.small_w
+    {
+        width: 248px;
+    }
+
+
+    .about_info .data
+    {
+        width: calc(100% - 536px);
+    }
+
+
+    .about_info .order_btn
+    {
+        width: 220px;
+        height: 48px;
+    }
+
+
+
+    /*--------------------------
+        Casting requirements
+    --------------------------*/
+    .casting_requirements .block_head
+    {
+        margin-left: 240px;
+    }
+
+
+    .casting_requirements .block_head span
+    {
+        padding-left: 100px;
+    }
+
+
+    .casting_requirements .pluses,
+    .casting_requirements .necessarily
+    {
+        width: 360px;
+        min-width: 360px;
+    }
+
+
+    .casting_requirements .pluses .title,
+    .casting_requirements .necessarily .title
+    {
+        margin-bottom: var(--inner_gap_md);
+        padding-inline: var(--inner_gap_b);
+    }
+
+
+
+    /*-------------
+        For men
+    -------------*/
+    .for_men .block_head
+    {
+        width: calc(100% - 240px);
+        margin-bottom: var(--inner_gap_md);
+        margin-left: 240px;
+    }
+
+
+    .for_men .block_head span
+    {
+        padding-left: 100px;
+    }
+
+
+    .for_men .image
+    {
+        width: 240px;
+    }
+
+
+    .for_men .info
+    {
+        width: calc(100% - 612px);
+        margin-left: 100px;
+    }
+
+
+    .for_men .order_btn
+    {
+        width: 220px;
+        height: 48px;
+        margin-top: var(--outside_gap_b);
+    }
+
+
+    .for_men .image2
+    {
+        width: 248px;
+    }
+
+
+
+    /*--------------------
+        Casting action
+    --------------------*/
+    .casting_action .block_head
+    {
+        width: 240px;
+    }
+
+
+    .casting_action .image
+    {
+        width: 240px;
+    }
+
+
+    .casting_action .info
+    {
+        width: calc(100% - 612px);
+        margin-top: var(--outside_gap);
+        margin-left: 100px;
+    }
+
+
+    .casting_action .order_btn
+    {
+        width: 220px;
+        height: 48px;
+        margin-top: var(--outside_gap_b);
+    }
+
+
+    .casting_action .image2
+    {
+        width: 248px;
+    }
+
+
+
+    /*-------------------
+        Casting block
+    -------------------*/
+    .casting_block .block_head
+    {
+        margin-bottom: var(--inner_gap_xs);
+        padding-left: 340px;
+    }
+
+
+    .casting_block .desc2
+    {
+        width: 340px;
+        margin-left: 240px;
+    }
+
+
+    .casting_block .bottom
+    {
+        margin-top: var(--outside_gap_b);
+    }
+
+
+    .casting_block .exp
+    {
+        width: 316px;
+    }
+
+
+    .casting_block .link a
+    {
+        width: 220px;
+        height: 48px;
+    }
+
+
+    .casting_block .image
+    {
+        right: -60px;
+
+        width: 520px;
+        margin-right: 0;
+    }
+
+
+
+    /*----------------
+        VIP escort
+    ----------------*/
+    .vip_escort .block_head .pre_title
+    {
+        width: 240px;
+    }
+
+
+    .vip_escort .block_head .title
+    {
+        margin-left: 100px;
+    }
+
+
+    .vip_escort .data
+    {
+        padding-bottom: var(--cont_padding_double);
+        padding-left: 340px;
+    }
+
+
+    .vip_escort .order_btn
+    {
+        width: 220px;
+        height: 48px;
+    }
+
+
+
+    /*------------------
+        Cookie modal
+    ------------------*/
+    .cookie_modal
+    {
+        width: 908px;
+    }
+
+
+    .cookie_modal .desc
+    {
+        width: calc(100% - 180px);
+    }
+
+
+    .cookie_modal .btn
+    {
+        width: 160px;
+        height: 48px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-block: var(--cont_padding_double) var(--cont_padding);
+    }
+
+
+    footer .row + .row
+    {
+        margin-top: var(--outside_gap_s);
+    }
+
+
+
+    footer .logo
+    {
+        width: 240px;
+    }
+
+
+
+    footer .menu
+    {
+        margin-left: 100px;
+
+        gap: var(--inner_gap_md);
+    }
+
+
+    footer .menu > *
+    {
+        width: 120px;
+    }
+
+
+
+    footer .contacts
+    {
+        width: 248px;
+    }
+
+
+
+    footer .name
+    {
+        font-size: 148px;
+    }
+
+
+    footer .desc
+    {
+        width: 248px;
+        padding-right: 0;
+    }
+
+
+
+    footer .bottom
+    {
+        margin-top: 40px;
+    }
+
+
+
+    footer .copyright
+    {
+        width: 240px;
+    }
+
+
+
+    footer .public_offer_link
+    {
+        margin-left: 100px;
+    }
+
+
+
+    footer .privacy_policy_link
+    {
+        width: 248px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal .btns .btn
+    {
+        height: 48px;
+    }
+
+    .modal .btns .btn.yes_btn
+    {
+        width: calc(100% - 90px);
+    }
+
+    .modal .btns .btn.no_btn
+    {
+        width: 80px;
+    }
+
+
+
+    /*-------------------
+        PopUp - Order
+    -------------------*/
+    #order_modal .steps
+    {
+        margin-top: var(--inner_gap_b);
+    }
+
+
+    #order_modal .step
+    {
+        padding-left: 40px;
+    }
+
+
+    #order_modal .links a
+    {
+        height: 48px;
     }
 }
